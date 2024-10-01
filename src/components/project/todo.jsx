@@ -32,7 +32,7 @@ export const Todo = () => {
             <form className="h-auto border border-transparent rounded w-72 px-2 py-3">
                 <div>
                     <input type="text" value={taskinput} onChange={(e) => settaskinput(e.target.value)} placeholder="Enter task: " className="w-32 border h-8 px-2 py-1.5 text-black bg-slate-200 rounded " />
-                    <button onClick={handletask} className="h-8 w-28 mx-2 border rounded bg-green-800 text-white font-semibold text-xs px-2 py-1.5 cursor-pointer">ADD</button>
+                    <button onClick={handletask} className="h-auto w-28 mx-2 border rounded bg-green-800 text-white font-semibold text-base px-2 py-1 cursor-pointer">ADD</button>
                 </div>
                 <ul>
                     {task.map((tasks, index) => (

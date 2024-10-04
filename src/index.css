@@ -2,11 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    height: 100%;
-    width: 100%;
-    display:  flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(37, 36, 36);
+html{
+    background-color: rgb(214, 220, 223);
+}
+.day{
+    background-image: url('white-bg.avif');
+    color: black;
+}
+
+.night{
+    background-image: url('black-bg.avif');
+    color: aliceblue;
+}
+.glassmor{
+    background: rgba(255, 255, 255, 0.055);
+    box-shadow: 0 8px 32px 0 rgba(195, 197, 231, 0.37);
+    backdrop-filter: blur( 2px );
+    border-radius: 10px;
+}
+.blurd{
+    background-color: rgba(255, 255, 255, 0.055);
+    box-shadow: 0 0 30px rgba(195, 197, 231, 0.37);
 }

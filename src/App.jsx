@@ -13,6 +13,7 @@ import { useToast } from "react-toastify";
 import { Showcart } from "./components/contextAPi/Showcart";
 import { Cart, Cartprovider } from "./components/contextAPi/Cart";
 import { Certificate } from "./components/protfolio/certificate";
+import { Addcertificate } from "./components/protfolio/addcertificate";
 
 const router = createBrowserRouter([
   {
@@ -36,7 +37,7 @@ const router = createBrowserRouter([
     },
     {
       path:"/certificate",
-      element:<Certificate/>
+      element:<Addcertificate/>
     }
   ]
   }

@@ -25,6 +25,7 @@ export const Trail = () => {
                     <div className="flex h-[90%] w-[100%]  gap-[30px] justify-center">
                         <Leftsection />
                         <main className="h-[400px] w-[60%] border border-transparent rounded px-6 py-4 blurd ">
+                            
                             <Outlet />
                         </main>
                         <Nav width='20%' />

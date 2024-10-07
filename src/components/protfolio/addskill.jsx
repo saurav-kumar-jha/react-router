@@ -4,7 +4,7 @@
 export const Addskill = () => {
     return (
         <>
-            <h1 className={` font-semibold text-3xl my-1  p-[5px] `} >Skill</h1>
+            <h1 className={` font-semibold text-3xl my-1  p-[5px]`} >Skill</h1>
             <section className="h-[120px] w-[90%] border rounded-md border-transparent mx-3 my-2 flex flex-wrap items-center ">
                 <Skill img="java.jfif" name="JAVA" />
                 <Skill img="js.png" name="JAVASCRIPT" />

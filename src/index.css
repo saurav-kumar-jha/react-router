@@ -2,16 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+
 html{
     background-color: rgb(214, 220, 223);
 }
 .day{
-    background-image: url('white-bg.avif');
+    background-image: url('./assets/white-bg.avif');
     color: black;
 }
 
 .night{
-    background-image: url('public/black-bg.avif');
+    background-image: url('./assets/black-bg.avif');
     color: aliceblue;
 }
 .glassmor{

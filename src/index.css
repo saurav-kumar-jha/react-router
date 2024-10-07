@@ -11,7 +11,7 @@ html{
 }
 
 .night{
-    background-image: url('black-bg.avif');
+    background-image: url('public/black-bg.avif');
     color: aliceblue;
 }
 .glassmor{
